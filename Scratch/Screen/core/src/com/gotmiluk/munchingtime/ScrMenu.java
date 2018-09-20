@@ -16,8 +16,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class ScrMenu implements Screen, InputProcessor {
     MunchingTime munchingTime;
     SprRectangle btnPlay;
-    //MarioGame marioGame;
-    /*    Texture txButtonP, txButtonT, txNamM;*/
+
     OrthographicCamera oc;
     SpriteBatch batch;
 
@@ -32,13 +31,13 @@ public class ScrMenu implements Screen, InputProcessor {
         oc.setToOrtho(true, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         oc.update();
         batch = new SpriteBatch();
-        btnPlay = new SprRectangle(300,90, 100, 100, "Play_button.jpg");
+        btnPlay = new SprRectangle(100,100, 150, 150, "Play_button.jpg");
         Gdx.input.setInputProcessor(this);
     }
 
     @Override
     public void render(float delta) {
-        Gdx.gl.glClearColor(0, 1, 0, 1); //Green background.
+        Gdx.gl.glClearColor(0, 0, 0, 0); //Green background.
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         batch.begin();
         batch.setProjectionMatrix(oc.combined);
