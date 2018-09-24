@@ -31,7 +31,7 @@ public class ScrMenu implements Screen, InputProcessor {
         oc.setToOrtho(true, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         oc.update();
         batch = new SpriteBatch();
-        btnPlay = new SprRectangle(100,100, 150, 150, "Play_button.jpg");
+        btnPlay = new SprRectangle(200,200, 200, 100, "Play_button.jpg");
         Gdx.input.setInputProcessor(this);
     }
 
