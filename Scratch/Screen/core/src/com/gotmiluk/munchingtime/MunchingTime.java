@@ -6,6 +6,7 @@ import com.gotmiluk.munchingtime.ScrPlay;
 public class MunchingTime extends Game {
     ScrMenu scrMenu;
     ScrPlay scrPlay;
+    MunchingTime munchingTime;
 
 
     int nScreen; // 0 for menu, 1 for play
