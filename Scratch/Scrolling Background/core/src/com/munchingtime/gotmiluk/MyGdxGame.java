@@ -17,6 +17,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
     @Override
     public void create() {
+        batch = new SpriteBatch();
 
         textbackground = new TextureRegion(new Texture("Background for game.jpg"), 0, 0, 2048, 563);
         Background1 = new Texture(Gdx.files.internal("Background for game.jpg"));
@@ -30,9 +31,10 @@ public class MyGdxGame extends ApplicationAdapter {
     public void render() {
         yCoordBg1 += BACKGROUND_MOVE_SPEED * Gdx.graphics.getDeltaTime();
         yCoordBg2 = yCoordBg1 + yMax;  // move backkground not the camera
-        if (yCoordBg1 >= 0)
+        if (yCoordBg1 >= 0) {
             yCoordBg1 = yMax * (-1);
-        yCoordBg2 = 0;
+            yCoordBg2 = 0;
+        }
 
         batch.begin();
         batch.draw(Background1,0,yCoordBg1);

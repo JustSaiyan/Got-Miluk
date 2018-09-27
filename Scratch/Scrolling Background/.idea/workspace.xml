@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b94becfd-cdc0-48fb-9bca-0e947e4a458a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Screen/core/src/com/gotmiluk/munchingtime/ScrMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Screen/core/src/com/gotmiluk/munchingtime/ScrMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/out/production/classes/com/munchingtime/gotmiluk/MyGdxGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/out/production/classes/com/munchingtime/gotmiluk/MyGdxGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/munchingtime/gotmiluk/MyGdxGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/munchingtime/gotmiluk/MyGdxGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,33 +31,35 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="159" />
+          <entry key="java" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="159" />
+          <entry key="JAVA" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="4" />
+          <entry key="git.branch.checkout.local" value="6" />
+          <entry key="git.branch.merge" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/munchingtime/gotmiluk/MyGdxGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="Matt" />
+        <entry key="$PROJECT_DIR$/../.." value="master" />
       </map>
     </option>
   </component>
@@ -687,7 +687,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10765854472190" />
+        <entry key="$PROJECT_DIR$" value="10766493595268" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3669038445" />
         <entry key="$PROJECT_DIR$/core/build.gradle" value="2971590108" />
@@ -835,7 +835,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -847,6 +847,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -901,8 +903,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -944,6 +944,9 @@
       <list>
         <item itemvalue="Application.DesktopLauncher" />
         <item itemvalue="Application.DesktopLauncher" />
+        <item itemvalue="Application.DesktopLauncher" />
+        <item itemvalue="Application.DesktopLauncher" />
+        <item itemvalue="Application.DesktopLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -964,7 +967,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26107383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -973,7 +976,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8201342" weight="0.32794458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8201342" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1028,8 +1031,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/munchingtime/gotmiluk/MyGdxGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
