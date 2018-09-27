@@ -62,8 +62,7 @@ public class ScrMenu implements Screen, InputProcessor {
     }
 
     @Override
-    public void dispose() {
-        batch.dispose();
+    public void dispose() { batch.dispose();
     }
 
     @Override
